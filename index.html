@@ -217,6 +217,8 @@ let cards=document.querySelectorAll(".card");
 let current=0;
 
 document.getElementById("openBtn").onclick=function(){
+   // Start music
+  document.getElementById("bgMusic").play();
   this.style.display="none";
   openCards();
 };
